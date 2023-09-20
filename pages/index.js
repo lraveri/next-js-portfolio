@@ -25,7 +25,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className='p-7 mb-12 flex justify-between bg-gradient-to-r from-blue-200 via-blue-300 to-green-300 lg:p-8'>
             <div className={oswald.className}>
-            <h1 className="text-gray-500 font-bold text-xl">Luca Raveri</h1>
+            <h1 className="text-gray-500 font-bold text-2xl">Luca Raveri</h1>
             </div>
             <ul className="flex items-center">
               <li>

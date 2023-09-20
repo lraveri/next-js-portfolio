@@ -6,7 +6,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
-import me from "../public/img/mee.png"
+import me from "../public/img/avatar3.png"
 
 const oswald = Oswald({ 
   subsets: ['latin'],

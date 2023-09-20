@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white">
-        <section className="min-h-screen">
+        <section className="min-h-screen bg-gradient-to-r from-gray-200 via-white to-gray-200">
           <nav className='p-7 mb-12 flex justify-between bg-gradient-to-r from-blue-200 via-blue-300 to-green-300 lg:p-8'>
             <div className={oswald.className}>
             <h1 className="text-gray-500 font-bold text-2xl">Luca Raveri</h1>

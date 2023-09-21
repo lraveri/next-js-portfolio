@@ -83,7 +83,7 @@ export default function Home() {
 
       {showPopup && (
         <div className="fixed top-4 right-4 z-10">
-          <div className="bg-white p-6 pl-5 rounded-lg shadow-lg">
+          <div className="bg-white p-6 pb-8 pr-7 pl-5 rounded-lg shadow-lg">
             <button
               className="absolute top-2 right-2 text-gray-500"
               onClick={closePopup}

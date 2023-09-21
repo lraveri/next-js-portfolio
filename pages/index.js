@@ -64,7 +64,7 @@ export default function Home() {
               Full stack web developer.
             </h3>
             <p className="text-md mb-8 px-5 leading-8 text-gray-700">
-              I'm a passionate technology enthusiast with an engineering background. <br /> Let&apos;s connect! 🚀
+              I&apos;m a passionate technology enthusiast with an engineering background. <br /> Let&apos;s connect! 🚀
             </p>
           </div>
           <footer>

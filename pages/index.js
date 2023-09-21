@@ -5,6 +5,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
+  AiFillGoogleCircle,
 } from "react-icons/ai";
 import me from "../public/img/avatar3.png"
 
@@ -33,7 +34,7 @@ export default function Home() {
                   className="bg-cyan-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
-                  Resume
+                  Download CV
                 </a>
               </li>
             </ul>
@@ -57,9 +58,9 @@ export default function Home() {
           </div>
           <footer>
             <div className="p-5 text-3xl flex justify-center gap-16 text-gray-500">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
               <AiFillGithub />
+              <AiFillLinkedin />
+              <AiFillGoogleCircle />
             </div>
           </footer>
         </section>

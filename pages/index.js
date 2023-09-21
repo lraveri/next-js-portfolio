@@ -90,7 +90,7 @@ export default function Home() {
             >
               <span className="text-2xl p-2">×</span>
             </button>
-            <p className="text-xl p-3 text-cyan-500 font-medium">
+            <p className="text-xl p-3 pb-2 text-cyan-500 font-medium">
               TODO LIST:
             </p>
             <ul className="list-disc ml-6">

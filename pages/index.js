@@ -90,13 +90,13 @@ export default function Home() {
             >
               <span className="text-2xl p-2">×</span>
             </button>
-            <p className="text-xl p-3 pb-2 text-cyan-500 font-medium">
+            <p className="text-l p-3 pb-2 text-cyan-500 font-medium">
               TODO LIST:
             </p>
             <ul className="list-disc ml-6">
-              <li>Buy groceries.</li>
-              <li>Go to the gym.</li>
-              <li>Update the CV.</li>
+              <li className="text-l">Buy groceries.</li>
+              <li className="text-l">Go to the gym.</li>
+              <li className="text-l">Update the CV.</li>
             </ul>
           </div>
         </div>

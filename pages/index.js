@@ -94,8 +94,8 @@ export default function Home() {
               TODO LIST:
             </p>
             <ul className="list-disc ml-6">
-              <li className="text-l">Buy groceries.</li>
-              <li className="text-l">Go to the gym.</li>
+              <li className="text-l"><del>Buy groceries.</del></li>
+              <li className="text-l"><del>Go to the gym.</del></li>
               <li className="text-l">Update the CV.</li>
             </ul>
           </div>

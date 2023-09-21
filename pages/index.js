@@ -9,10 +9,10 @@ import {
 } from "react-icons/ai";
 import me from "../public/img/avatar3.png"
 
-const oswald = Oswald({ 
+const oswald = Oswald({
   subsets: ['latin'],
   weight: ['700']
- })
+})
 
 export default function Home() {
   return (
@@ -24,9 +24,9 @@ export default function Home() {
       </Head>
       <main className=" bg-white">
         <section className="min-h-screen bg-gradient-to-r from-gray-200 via-white to-gray-200">
-          <nav className='p-7 mb-12 flex justify-between bg-gradient-to-r from-blue-200 via-blue-300 to-green-300 lg:p-8'>
+          <nav className='p-7 mb-12 flex justify-between bg-gradient-to-r from-blue-200 via-blue-300 to-green-300 sm:p-6 lg:p-8'>
             <div className={oswald.className}>
-            <h1 className="text-gray-500 font-bold text-2xl">Luca Raveri</h1>
+              <h1 className="text-gray-500 font-bold text-2xl">Luca Raveri</h1>
             </div>
             <ul className="flex items-center">
               <li>
@@ -44,23 +44,28 @@ export default function Home() {
               <Image src={me} layout="fill" objectFit="cover" />
             </div>
             <div className={oswald.className}>
-            <h2 className="text-4xl py-2 text-cyan-500 font-medium">
-              Luca Raveri
-            </h2>
+              <h2 className="text-4xl py-2 text-cyan-500 font-medium">
+                I'm Luca
+              </h2>
             </div>
             <h3 className="text-xl text-gray-500 py-2">
-              Developer and designer.
+              Full stack web developer.
             </h3>
             <p className="text-md mb-8 px-5 leading-8 text-gray-700">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              I'm a passionate technology enthusiast with an engineering background. <br /> Let's connect! 🚀
             </p>
           </div>
           <footer>
             <div className="p-5 text-3xl flex justify-center gap-16 text-gray-500">
-              <AiFillGithub />
-              <AiFillLinkedin />
-              <AiFillGoogleCircle />
+              <a href='https://github.com/LucaRaveri' target="_blank" rel="noopener noreferrer">
+                <AiFillGithub />
+              </a>
+              <a href='http://linkedin.com/in/lucaraveri' target="_blank" rel="noopener noreferrer">
+                <AiFillLinkedin />
+              </a>
+              <a href="mailto:lucaraveri993@gmail.com">
+                <AiFillGoogleCircle />
+              </a>
             </div>
           </footer>
         </section>

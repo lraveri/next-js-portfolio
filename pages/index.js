@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <div className={oswald.className}>
               <h2 className="text-4xl py-2 text-cyan-500 font-medium">
-                I&aposm Luca
+                I'm Luca
               </h2>
             </div>
             <h3 className="text-xl text-gray-500 py-2">
@@ -90,13 +90,13 @@ export default function Home() {
             >
               <span className="text-2xl p-2">×</span>
             </button>
-            <p className="text-l p-3 pb-2 text-cyan-500 font-medium">
+            <p className="text-xl p-3 pb-2 text-cyan-500 font-medium">
               TODO LIST:
             </p>
             <ul className="list-disc ml-6">
               <li className="text-l"><del>Buy groceries.</del></li>
               <li className="text-l"><del>Go to the gym.</del></li>
-              <li className="text-l">Update the CV.</li>
+              <li>Update the CV.</li>
             </ul>
           </div>
         </div>

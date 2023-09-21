@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <div className={oswald.className}>
               <h2 className="text-4xl py-2 text-cyan-500 font-medium">
-                I'm Luca
+                I&aposm Luca
               </h2>
             </div>
             <h3 className="text-xl text-gray-500 py-2">

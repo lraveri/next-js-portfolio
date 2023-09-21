@@ -34,6 +34,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white">
         <section className="min-h-screen bg-gradient-to-r from-gray-200 via-white to-gray-200">
+          
           <nav className='p-7 mb-12 flex justify-between bg-gradient-to-r from-blue-200 via-blue-300 to-green-300 sm:p-6 lg:p-8'>
             <div className={oswald.className}>
               <h1 className="text-gray-500 font-bold text-2xl">Luca Raveri</h1>
@@ -49,20 +50,21 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+
           <div className="text-center lg:p-8">
             <div className="mx-auto mt-5 bg-gradient-to-b from-blue-300 rounded-full w-60 h-60 relative overflow-hidden">
               <Image src={me} layout="fill" objectFit="cover" />
             </div>
             <div className={oswald.className}>
               <h2 className="text-4xl py-2 text-cyan-500 font-medium">
-                I'm Luca
+                I&apos;m Luca
               </h2>
             </div>
             <h3 className="text-xl text-gray-500 py-2">
               Full stack web developer.
             </h3>
             <p className="text-md mb-8 px-5 leading-8 text-gray-700">
-              I'm a passionate technology enthusiast with an engineering background. <br /> Let's connect! 🚀
+              I'm a passionate technology enthusiast with an engineering background. <br /> Let&apos;s connect! 🚀
             </p>
           </div>
           <footer>

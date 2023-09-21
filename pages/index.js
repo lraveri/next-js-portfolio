@@ -101,13 +101,6 @@ export default function Home() {
           </div>
         </div>
       )}
-      In questo codice, il pop-up contiene il bottone "x" in alto a destra per chiudere il pop-up, seguito dalla lista delle cose da fare (TODO LIST). Spero che questo soddisfi le tue richieste.
-
-
-
-
-
-
 
     </div>
   )

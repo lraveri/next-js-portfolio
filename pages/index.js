@@ -6,7 +6,7 @@ import {
   AiFillGithub,
   AiFillGoogleCircle,
 } from "react-icons/ai";
-import me from "../public/img/me2.png"
+import me from "../public/img/me3.png"
 import { useState } from 'react';
 
 const oswald = Oswald({

@@ -4,7 +4,7 @@ import Head from "next/head";
 import {
   AiFillLinkedin,
   AiFillGithub,
-  AiFillGoogleCircle,
+  AiFillGoogleCircle, AiFillMail,
 } from "react-icons/ai";
 import me from "../public/img/me3.png"
 import { useState } from 'react';
@@ -69,14 +69,14 @@ export default function Home() {
           </div>
           <footer>
             <div className="p-5 text-3xl flex justify-center gap-16 text-gray-500">
-              <a href='https://github.com/LucaRaveri' target="_blank" rel="noopener noreferrer">
+              <a href='https://github.com/lraveri' target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
               </a>
               <a href='http://linkedin.com/in/lucaraveri' target="_blank" rel="noopener noreferrer">
                 <AiFillLinkedin />
               </a>
-              <a href="mailto:lucaraveri993@gmail.com">
-                <AiFillGoogleCircle />
+              <a href="mailto:info@lucaraveri.com">
+                <AiFillMail />
               </a>
             </div>
           </footer>
